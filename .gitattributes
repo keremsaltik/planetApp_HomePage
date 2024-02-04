@@ -16,4 +16,4 @@
 
 *.kotlin linguist-detectable=false
 
-*.CMake linguist-detectable=false
+*.cmake linguist-detectable=false
