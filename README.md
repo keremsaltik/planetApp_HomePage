@@ -20,3 +20,7 @@ This code defines a mainPlanets class with planet properties like title, descrip
 ### HomePage.dart
 
 Lists are called by passing the function (with references) and displayed at the specified location on the screen.
+
+### main.dart
+
+It contains dark and light themes and changes according to the phone's theme.
