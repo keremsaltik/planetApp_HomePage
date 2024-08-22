@@ -20,22 +20,22 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textButtonTheme: TextButtonThemeData(
           style: ButtonStyle(
-            iconColor: MaterialStateProperty.all<Color>(Colors.black),
+            iconColor: WidgetStateProperty.all<Color>(Colors.black),
           ),
         ),
       ),
       darkTheme: ThemeData(
-        colorScheme: ColorScheme.dark(background: Colors.black),
+        colorScheme: const ColorScheme.dark(surface: Colors.black),
         useMaterial3: true,
-        iconTheme: IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.white),
         textButtonTheme: TextButtonThemeData(
           style: ButtonStyle(
-            iconColor: MaterialStateProperty.all<Color>(Colors.white),
+            iconColor: WidgetStateProperty.all<Color>(Colors.white),
           ),
         ),
       ),
       themeMode: ThemeMode.system,
-      home: homePage(),
+      home: const homePage(),
     );
   }
 }
